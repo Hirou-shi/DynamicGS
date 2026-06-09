@@ -1,5 +1,12 @@
 # SpaceHealth — Alocação de Atendimentos com Programação Dinâmica
 
+**GRUPO**
+
+Rodrigo Hiroshi Watanabe - RM 557374
+Gabriel Torres Caldeira - RM 561613
+Geovana Maria da Silva Cardoso - RM 566254
+
+
 Módulo de **Dynamic Programming com Python** do projeto de telemedicina para regiões remotas.
 
 ## O problema
