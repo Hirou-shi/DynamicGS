@@ -1,3 +1,16 @@
+"""
+triagem.py
+----------
+priorizar_fila(): ordena os pacientes do mais grave para o menos grave
+usando uma FILA DE PRIORIDADE (heapq).
+
+IMPORTANTE para a defesa do trabalho:
+Isto NÃO é programação dinâmica — é uma estratégia GULOSA (greedy):
+"atenda sempre o mais grave primeiro". É rápida e intuitiva, mas como
+veremos no main.py, pode ser SUBÓTIMA quando o tempo de médico é limitado.
+A comparação com a DP (alocacao.py) é o ponto central do projeto.
+"""
+
 import heapq
 from models import Paciente
 
