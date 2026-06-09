@@ -18,8 +18,7 @@ from risco import calcular_risco, gerar_alerta
 from triagem import priorizar_fila, atender_guloso
 from alocacao import alocar_atendimentos
 
-CAPACIDADE_PLANTAO = 240   # minutos de medico disponiveis
-
+CAPACIDADE_PLANTAO = 240   
 
 def main() -> None:
     pacientes = gerar_pacientes()
@@ -27,7 +26,7 @@ def main() -> None:
     # 2. Risco + alertas
     alertas = []
     for p in pacientes:
-        calcular_risco(p)               # preenche p.score_risco
+        calcular_risco(p)              
         alerta = gerar_alerta(p)
         if alerta:
             alertas.append(alerta)
